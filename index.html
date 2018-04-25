@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta name="theme-color" content="#2d62b7" />
+
+    <link rel="icon" sizes="192x192" href="https://i.imgur.com/BYQ69AD.png">
+
+
+
+    <meta charset="utf-8">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="alt stylesheet" type="text/css" href="myStyle.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  </head>
+  <body >
+    <h3 id="topBar">
+      <center>
+        Decimal to Hex, Binary, and more!
+      </center>
+    </h3>
+    <div class="container-fluid">
+      <center>
+        <p>
+          A number converter because I hate doing this manually.<br>
+          Please select your input type.
+        </p>
+      </center>
+      <div id="target-div">
+        <app>
+        </app>
+      </div>
+      <center>
+        <div class="lower-info">
+          <h3>
+            A Note About Negative Numbers
+          </h3>
+          <p>This app will convert your negative input into raw binary. Then it will perform two's complement on your <br>
+            binary. Then this complemented binary is written as output. Another note, if your negative input is Hexadecimal,<br>
+            for example, then in the Hexadecimal output we just copy and paste your input into output.
+          </p>
+          <br>
+          <h3>
+            A Note About Output Binary from Negative Numbers.
+          </h3>
+          <p>
+            Remember, this app converts your input into binary, and then performs two's complement on that binary.<br>
+            Unless you give us negative binary, we will be writing as output the two's complement of your Binary.
+          </p>
+        </div>
+      </center>
+    </div>
+    <div class="source-footer">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"
+      height="30" width="30"></img>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/2000px-CSS.3.svg.png"
+      height="30" width="22"></img>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Badge_js-strict.svg/2000px-Badge_js-strict.svg.png"
+      height="30" width="22"></img>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Boostrap_logo.svg/1200px-Boostrap_logo.svg.png"
+      height="20" width="20"></img>
+      <img src="https://vuejs.org/images/logo.png"
+      height="25" width="25"></img>
+      <p class="footer-text">Things I have worked with so far!</p>
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>

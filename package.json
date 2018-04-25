@@ -1,0 +1,29 @@
+{
+  "name": "jorgemanzo.github.io",
+  "version": "1.0.0",
+  "description": "This is a calculator that just converts Decimal <=> Binary <=> Hexadecimal as well as nevative values.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgemanzo/jorgemanzo.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorgemanzo/jorgemanzo.github.io/issues"
+  },
+  "homepage": "https://github.com/jorgemanzo/jorgemanzo.github.io#readme",
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^1.0.0",
+    "parcel-bundler": "^1.7.1",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vue-hot-reload-api": "^2.3.0"
+  }
+}
